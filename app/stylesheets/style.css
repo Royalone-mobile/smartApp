@@ -1,0 +1,144 @@
+body{
+	background:url('../images/bg.png');
+	color:#ddd;
+    background-size:100%
+}
+
+	
+#search{
+
+}
+
+#search input{
+	width:100%;
+	height: 30px;
+	margin: 20px 0px 10px 0px; 
+}
+#search input:focus{opacity:1;}
+
+#search_buttons {
+	text-align: center;
+}
+
+#search_buttons .button{
+	margin-right:20px;
+	cursor: pointer;
+}
+
+
+.button:hover{
+	color:#3AA9C5;
+}
+
+.highlight{
+	color:#3AA9C5;
+}
+
+
+.vr{
+	width:1px;
+	height:10px;
+	border:1px solid rgba(200,200,200,0.6);
+	margin-left:8px;
+	margin-right:8px;
+}
+
+.listing{
+	margin-bottom:5px;
+}
+
+.listing:hover{
+	background:#CCC;
+	cursor:pointer;
+}
+.time{
+	float:right;
+	margin-right:20%;
+}
+
+.channel{
+	font-size:30px;
+	margin-bottom:30px;
+	
+	text-shadow:#AAA 1px 1px 4px;
+}
+
+.channel_listing{
+	font-size:20px;
+	margin-left:30px;
+	text-shadow:#AAA 1px 1px 4px;
+}
+
+.loading{
+	display:none;
+	background:transparent;
+	height:30px;
+	width:30px;
+	float:right;
+	margin-right: -50px;
+	margin-top:-40px;
+	}
+
+
+/* ---------------------------- PROGRAM PAGE ------------------------------ */
+
+#details .datatype.title {
+	font-weight: 400;
+	font-size: 3em;
+	margin: 0px 0px 15px 0px;
+	line-height: .85em;
+}
+
+.poster, #details {
+	margin-top: 20px;
+} 
+
+#overlay {
+	background: rgba(0,0,0,0.7);
+	height: 100%
+}
+
+#details .imdbvotes{
+	display: none;
+}
+#details .imdbid{
+	display: none;
+}
+#details .response{
+	display: none;
+}
+
+#details .poster {
+	display: none;
+}
+
+
+.poster	img {
+	-moz-box-shadow: 0 0 15px 10px #000;
+	-webkit-box-shadow: 0 0 15px 10px #000;
+	box-shadow: 0 0 15px 10px #000;
+}
+
+.similar img {
+	height: 160px;
+}
+
+
+#similarMovies {
+	text-align: center;
+	margin-top: 30px;
+}
+#details .trailer{
+	cursor: pointer;
+	font-size:30px;
+}
+
+.datatype.poster {
+display: none;
+}
+
+.red_button{
+ height:30px;
+ width:30px;
+ float:left;
+}
